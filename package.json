@@ -1,0 +1,27 @@
+{
+    "name": "@backs/tsconfig",
+    "version": "1.0.0",
+    "description": "A few TSConfigs used by me.",
+    "main": "tsconfig.json",
+    "files": [
+        "tsconfig.base.json",
+        "tsconfig.lib.json"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/backiscute/tsconfig.git"
+    },
+    "author": {
+        "name": "Back",
+        "email": "me@back.rs",
+        "url": "https://back.rs"
+    },
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/backiscute/tsconfig/issues"
+    },
+    "homepage": "https://github.com/backiscute/tsconfig#readme",
+    "publishConfig": {
+        "access": "public"
+    }
+}
