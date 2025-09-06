@@ -3,9 +3,9 @@
     "compilerOptions": {
         "module": "nodenext",
         "moduleResolution": "nodenext",
-        "baseUrl": ".",
+        "baseUrl": "${configDir}",
         "paths": {
-            "@/*": ["./src/*"]
+            "@/*": ["${configDir}/src/*"]
         }
     }
 }

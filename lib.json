@@ -3,13 +3,13 @@
     "compilerOptions": {
         "module": "esnext",
         "moduleResolution": "bundler",
-        "baseUrl": ".",
+        "baseUrl": "${configDir}",
         "paths": {
-            "@/*": ["./src/*"]
+            "@/*": ["${configDir}/src/*"]
         },
         "sourceMap": true,
         "declaration": true,
-        "declarationDir": "dist/types",
+        "declarationDir": "${configDir}/dist/types",
         "declarationMap": true
     }
 }
