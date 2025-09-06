@@ -1,6 +1,6 @@
 {
     "name": "@backs/tsconfig",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A repo of TSConfigs used by me.",
     "files": [
         "*.json"
