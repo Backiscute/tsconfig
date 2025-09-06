@@ -1,12 +1,15 @@
 {
     "name": "@backs/tsconfig",
-    "version": "1.0.0",
-    "description": "A few TSConfigs used by me.",
-    "main": "tsconfig.json",
+    "version": "1.0.1",
+    "description": "A repo of TSConfigs used by me.",
     "files": [
-        "tsconfig.base.json",
-        "tsconfig.lib.json"
+        "*.json"
     ],
+    "exports": {
+        "./base": "./base.json",
+        "./lib": "./lib.json",
+        "./node": "./node.json"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/backiscute/tsconfig.git"
